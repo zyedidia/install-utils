@@ -1,0 +1,3 @@
+Ubuntu mate slow alt tab:
+    * Open Preferences->Windows->Compositing Manager
+    * Uncheck the box
