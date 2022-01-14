@@ -1,0 +1,14 @@
+if [ "$color_prompt" = yes ]; then
+    PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='\w\$ '
+fi
+
+alias ls=exa
+alias ll='ls -l'
+
+export PATH=~/.eget/bin:$PATH
+export EGET_BIN=~/.eget/bin
+alias vi=nvim
+export VISUAL=nvim
+export EDITOR=nvim

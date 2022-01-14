@@ -1,0 +1,20 @@
+[user]
+	email = zyedidia@gmail.com
+	name = Zachary Yedidia
+[github]
+	user = zyedidia
+
+[alias]
+    co = checkout
+    ci = commit
+    br = branch
+    lo = log --oneline
+    st = status
+
+[push]
+    default = simple
+[pull]
+    rebase = false
+
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
