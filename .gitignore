@@ -1,4 +1,6 @@
 nextpnr
+nextpnr-ice40
+nextpnr-ecp5
 prjtrellis
 verilator
 yosys
